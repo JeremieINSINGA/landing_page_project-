@@ -44,14 +44,13 @@ html, body{
     font-size: 135%;
     padding: 10px 20px;
     border: solid #fff 3px;
-    text-transform: uppercase;
     text-decoration: none;
     position: absolute;
     background: #FF3466;
-    width: 324px;
+    width: 250px;
     height: 54px;
-    Left:36rem;
-
+    Left:38rem;
+    bottom: 3rem;
 }
 
 .btn:hover{
@@ -62,17 +61,18 @@ html, body{
 p{
     font-size: 2rem;
     line-height:210%;
-    text-align: justify;
+    text-align:justify;
     margin: 3%;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
+    padding-left: 20px;  
 }
 
 img{
     width: 2rem;
     position: absolute;
     background: #FF3466;
-    top: 7%;
+    top: 5%;
     bottom: 8.33%;
     width:150px;
     height:150px;
@@ -89,6 +89,10 @@ img{
 
 
 @media screen and (max-width: 768px) {
+
+    .img{
+        /*A voir*/
+    }
     .content h1 {
         font-size: 250%;
     }

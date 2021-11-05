@@ -6,8 +6,9 @@ html, body{
     font-size: 16px;
 }
 
+
 .intro{
-    background-color: rgb(109, 12, 109);
+    background-color: #001f31;
     height: 100%;
     width: 100%;
     margin: auto;
@@ -31,7 +32,7 @@ html, body{
 
 .content h1{
     font-family: 'Raleway', sans-serif;
-    color:#F9F3F4;
+    color:#ff3366;
     text-shadow: 0px 0px 100px #000;
     font-size: 500%;
 }
@@ -39,7 +40,7 @@ html, body{
 .btn {
     border-radius: 9px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #F9F3F4;
+    color: #fff;
     font-size: 135%;
     padding: 10px 20px;
     border: solid #fff 3px;
@@ -57,13 +58,21 @@ p{
     line-height:210%;
     text-align: justify;
     margin: 3%;
-    color: #F9F3F4;
+    color: #ff3366;
     font-family: sans-serif;
 }
 
 img{
     width: 2rem;
 }
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:"poppins", sans-serif;
+}
+
 
 @media screen and (max-width: 768px) {
     .content h1 {
@@ -78,3 +87,4 @@ img{
         line-height: 160%;
     }
 }
+

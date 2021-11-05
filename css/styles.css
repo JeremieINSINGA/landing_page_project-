@@ -39,7 +39,7 @@ html, body{
 
 .btn {
     border-radius: 100px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
     font-size: 135%;
     padding: 10px 20px;
@@ -50,6 +50,8 @@ html, body{
     background: #FF3466;
     width: 324px;
     height: 54px;
+    Left:36rem;
+
 }
 
 .btn:hover{
@@ -68,6 +70,14 @@ p{
 
 img{
     width: 2rem;
+    position: absolute;
+    background: #FF3466;
+    top: 7%;
+    bottom: 8.33%;
+    width:150px;
+    height:150px;
+    Left:41rem;
+    
 }
 
 *{

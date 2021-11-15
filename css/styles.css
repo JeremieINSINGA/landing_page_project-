@@ -1,3 +1,12 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-family:"poppins", sans-serif;
+}
+
 html, body{
     margin:0;
     padding: 0;
@@ -6,11 +15,11 @@ html, body{
     font-size: 16px;
 }
 
-@import url(//fonts.googleapis.com/css?family=Lato:300:400);
-
-body {
-  margin:0;
+h1{
+  height: 20rem;
 }
+
+
 
 .header {
   position:relative;
@@ -41,8 +50,10 @@ body {
   margin-bottom:-7px;
   min-height:100px;
   max-height:150px;
-  fill: greenyellow;
+  fill: rgb(255, 158, 203);
 }
+
+
 
 
 
@@ -65,6 +76,7 @@ body {
   animation-delay: -5s;
   animation-duration: 20s;
 }
+
 
 
 
@@ -129,35 +141,11 @@ p{
     padding-left: 20px; 
 }
 
-h1{
-    height: 35vh;
-}
 
-img{
-    width: 2rem;
-    position: absolute;
-    background: #FF3466;
-    top: 5%;
-    bottom: 8.33%;
-    width:150px;
-    height:150px;
-    Left:41rem;
-    
-}
-
-*{
-    margin:0px;
-    padding:0px;
-    box-sizing:border-box;
-    font-family:"poppins", sans-serif;
-}
 
 
 @media screen and (max-width: 768px) {
 
-    .img{
-        /*A voir*/
-    }
     .content h1 {
         font-size: 250%;
     }
@@ -176,9 +164,7 @@ img{
       height:40px;
       min-height:40px;
     }
-    .content {
-      height:30vh;
-    }
+
     h1 {
       font-size:24px;
     }

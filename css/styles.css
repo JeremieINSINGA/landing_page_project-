@@ -45,6 +45,8 @@ html, body {
   min-height: 100px;
   max-height: 150px;
   fill: rgb(255, 158, 203);
+  height: 40px;
+  min-height: 40px;
 }
 
 .parallax > use {
@@ -67,8 +69,11 @@ html, body {
   animation-duration: 20s;
 }
 
+
+
 h1 {
   height: 10rem;
+  font-size: 24px;
 }
 
 p {
@@ -132,30 +137,10 @@ p {
   border: solid #f9f3f4 3px;
 }
 
-@media screen and (max-width: 768px) {
-  .content h1 {
-    font-size: 250%;
-  }
-  .btn {
-    font-size: 110%;
-    padding: 7px 15px;
-  }
-  p {
-    font-size: 16px;
-    line-height: 170%;
-  }
-}
 
-@media (max-width: 768px) {
-  .waves {
-    height: 40px;
-    min-height: 40px;
-  }
+/* Media queries et Keyframes */
 
-  h1 {
-    font-size: 24px;
-  }
-}
+
 
 @keyframes move-forever {
   0% {

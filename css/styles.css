@@ -76,7 +76,6 @@ p {
   height: 16.5rem;
   font-size: 2rem;
   line-height: 210%;
-  text-align: justify;
   margin: 3%;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
@@ -161,7 +160,6 @@ p {
     height: 16.5rem;
     font-size: 2rem;
     line-height: 210%;
-    text-align: justify;
     margin: 3%;
     color: #ffffff;
     font-family: "Poppins", sans-serif;
@@ -209,5 +207,8 @@ p {
   .parallax > use:nth-child(4) {
     animation-delay: 2s;
     animation-duration: 13s;
+  }
+  p{
+    font-size: 18px;
   }
 }
